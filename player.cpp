@@ -34,7 +34,7 @@ void Player::update()
 	int padState = GetJoypadInputState(DX_INPUT_KEY_PAD1);
 	if (padState & PAD_INPUT_UP)
 	{
-		//a
+
 	}
 	if (padState & PAD_INPUT_DOWN)
 	{
