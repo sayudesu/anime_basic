@@ -77,5 +77,6 @@ void Player::update()
 
 void Player::draw()
 {
-	DrawGraph(static_cast<int>(m_pos.x), static_cast<int>(m_pos.y), m_handle[m_animeNo], true);	
+	
+	DrawExtendGraph(32, 32, Game::kScreenWidth - 32, Game::kScreenHeight - 32, m_handle[m_animeNo], true);
 }
